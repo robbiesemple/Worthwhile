@@ -1,12 +1,22 @@
+.all{
+    background-image: url("tomatoe.jpg");
+    background-size: 100%, auto;
+}
+
 h1 {
     font-family: pacifico, arial;
     color: #bf150c;
     font-size: 4rem;
 }
+
 h3 {
     font-family: roboto, arial;
-    color: #0cbf30;
+    color: #bf150c;
 }
+a {
+  color:inherit;
+  text-decoration: none;
+ }
 p {
     font-family: roboto, arial;
     color: #bf150c;
