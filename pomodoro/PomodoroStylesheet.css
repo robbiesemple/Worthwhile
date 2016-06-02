@@ -1,14 +1,23 @@
 .all{
-    background-image: url("tomatoe.jpg");
+    background-image: url("Pomodoro2.jpg");
     background-size: 100%, auto;
+    margin: 0px;
+    
 }
-
+.header {
+    padding-top: 0rem;
+    padding-left: 3rem;
+    padding-bottom: 0rem;
+}
 h1 {
     font-family: pacifico, arial;
     color: #bf150c;
     font-size: 4rem;
 }
-
+.menu{
+    padding-top: 0px;
+    padding-left: 3rem;
+}
 h3 {
     font-family: roboto, arial;
     color: #bf150c;
@@ -21,4 +30,11 @@ p {
     font-family: roboto, arial;
     color: #bf150c;
     font-size:0.5rem;
+}
+@media only screen and (min-width: 768px) {
+    h1 {
+    font-family: pacifico, arial;
+    color: #0cbf30;
+    font-size: 4rem;
+    }
 }
